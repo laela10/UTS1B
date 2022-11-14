@@ -49,17 +49,17 @@ public class JawabanUTS {
         switch (angkaRandom) {
             case 1:
                 CheckIndexArray(TI, PenerimaanMabaPoltek);
-                System.out.println("Anda berhasil menjadi MabaPoltek TI");
+                System.out.println("Anda mendapatkan NIK + TI22" + angkaRandom);
                 PrintInfoPenerimaanMabaPoltek();
                 break;
             case 2:
                 CheckIndexArray(DKV, PenerimaanMabaPoltek);
-                System.out.println("Anda berhasil menjadi MabaPoltek DKV");
+                System.out.println("Anda mendapatkan NIK + DK22" + angkaRandom);
                 PrintInfoPenerimaanMabaPoltek();
                 break;
             case 3:
                 CheckIndexArray(TeknikKom, PenerimaanMabaPoltek);
-                System.out.println("Anda berhasil menjadi MabaPoltek TeknikKom");
+                System.out.println("Anda mendapatkan NIK + TK22" +angkaRandom);
                 PrintInfoPenerimaanMabaPoltek();
                 break;
         }
